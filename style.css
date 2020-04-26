@@ -15,7 +15,6 @@ header {
     padding: 30px;
     height: 10vh;
     display: flex;
-    align-items: flex-start;
     align-items: center;
     flex: 1;
     position: fixed;
@@ -39,7 +38,27 @@ nav a:visited{
 #intro{
     display: flex;
     height:  90vh;
+}
 
+h1{
+    font-size: 20px;
+    display: inline;
+}
+
+div{
+    padding-left: 30px;
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+div.summary{
+    width:55%
+}
+
+
+figure{
+    padding-top: 10vh;
 }
 
 section{
