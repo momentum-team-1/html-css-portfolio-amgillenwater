@@ -56,11 +56,25 @@ div.summary{
     width:55%
 }
 
-
-figure{
-    padding-top: 10vh;
+img#headshot{
+    padding-top: 20vh;
 }
 
-section{
-    padding-top: 10vh;
+
+
+section#projects {
+    padding-top: 20vh;
+
 }
+
+article {
+    display: flex;
+}
+
+div#proj-summary {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px;
+}
+
