@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: -15px;
+    margin-right: -15px;
+    margin-bottom: 15 px;
+    margin-left: -15px;
+    padding: 30px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a{
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+  }
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a:visited{
+    color: #808080;
+}
+
+#intro{
+    display: flex;
+    height:  90vh;
+}
+
+h1{
+    font-size: 20px;
+    display: inline;
+}
+
+div{
+    padding-left: 30px;
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+div.summary{
+    width:55%
+}
+
+img#headshot{
+    padding-top: 20vh;
+}
+
+
+
+section#projects {
+    padding-top: 20vh;
+
+}
+
+article {
+    display: flex;
+}
+
+div#proj-summary {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px;
+}
+
